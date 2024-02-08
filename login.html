@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GDSC First Project</title>
+</head>
+
+<body style="background-color: fuchsia; display: flex; justify-content: center;">
+    <div style="background-color: white; padding-top: 20px; padding-bottom: 50px; margin-top: 80px; width: max-content; padding-right: 40px;">
+        <h1 style="text-align: center;"><b>Contact Us</b></h1>
+        <br>
+        <section class="loginform cf" style="text-align: justify;">
+            <form name="login" action="index_submit" method="get" accept-charset="UTF-8">
+                <ul>
+                    <label for="username">YOUR NAME *</label>
+                    <div style="width: 100%;">
+                        <span><input type="text" name="username" placeholder="First Name" required></span>
+                        <span><input type="text" name="username" placeholder="Last Name" required></span>
+                    </div>
+
+                    <br>
+
+                    <label for="usermail">EMAIL ADDRESS *</label>
+                    <div>
+                        <input style="width: 100%;" type="email" name="usermail" placeholder="Eg. example@email.com" required>
+                    </div>
+                    <br>
+
+                    <label for="number">PHONE NUMBER *</label>
+                    <div>
+                        <input type="number" style="width: 100%;" name="number" placeholder="Eg. *1 800 000000" required>
+                    </div>
+                    <br>
+
+                    <label for="text">MESSAGE *</label>
+                    <div>
+                        <textarea name="text"  cols="30" rows="10" style="width: 100%;" placeholder="Please enter your comments..."></textarea>
+                    </div>
+                </ul>
+            </form>
+        </section>
+        <br>
+        <div style="text-align: center;">
+            <a href="welcome.html">
+                <button type="submit" style="color: white; background-color: black; border-radius: 20px; border: 10px solid black; padding-left: 20px; padding-right: 20px;"><b>Submit &#8594;</b></button>
+            </a>
+        </div>
+    </div>
+</body>
+
+</html>
